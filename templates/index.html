@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DPS</title>
+    <link
+      relk="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="..\static\style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar-left">
+        <div class="dropdown">
+          <div class="select">
+            <span class="selected">GPTCure </span>
+            <div class="caret"></div>
+          </div>
+          <ul class="menu">
+            <li class="active">GPTCure</li>
+            <li>GPTCure Advanced</li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-right">
+        <div class="settings"><a href="#">Settings</a></div>
+      </div>
+    </div>
+
+    <div class="container-main">
+      <div class="greeting">
+        <a class="animated-text">Hello, Vedang</a> <br />
+        How can I help you today?
+      </div>
+
+      <div class="suggestions">
+        <div class="suggestion">
+          <p>Suggest beautiful places to see on an upcoming road trip</p>
+        </div>
+        <div class="suggestion">
+          <p>Show me how to build something by hand</p>
+        </div>
+        <div class="suggestion">
+          <p>What's the time it takes to walk to several landmarks?</p>
+        </div>
+        <div class="suggestion">
+          <p>Settle a debate: how should you store bread?</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="output"></div>
+    <div class="footer">
+      <div class="prompt-input">
+        <input type="text" id="prompt" placeholder="Enter a prompt here" />
+        <button class="submit">Submit</button>
+      </div>
+
+      <p>
+        GPTCure may display inaccurate info, including about people, so
+        double-check its responses.
+      </p>
+    </div>
+    <script src="..\static\script.js"></script>
+  </body>
+</html>
